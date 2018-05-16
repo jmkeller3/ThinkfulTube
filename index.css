@@ -9,6 +9,17 @@ main {
 }
 
 img {
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 246px;
 }
+
+form {
+    margin-bottom: 20px;
+}
+
+.js-result-name  {
+margin: 10 0;
+padding: 10;
+display: block;
+}
+

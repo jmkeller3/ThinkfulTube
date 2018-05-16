@@ -6,7 +6,7 @@ function getDataFromApi(searchTerm, callback) {
         data: {part: 'snippet',
         key: 'AIzaSyCZv1bqNujg60v49AqjAMgq23nAZaL2cK4',      
         q: searchTerm,
-        maxResults: 5,
+        maxResults: 20,
         per_page: 5,
         type: 'video',
         },
@@ -20,8 +20,9 @@ function getDataFromApi(searchTerm, callback) {
 
 
 function renderResult(item) {
+    
     return `
-        <div class="js-results">
+        <div>
             <a class="js-result-name" href="https://youtu.be/${item.id.videoId}"> 
                 <img src="${item.snippet.thumbnails.medium.url}"/>
             ${item.snippet.title}</a>

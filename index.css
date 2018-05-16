@@ -1,0 +1,14 @@
+* {
+    margin: 0 auto;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 20px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
